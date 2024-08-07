@@ -1,0 +1,39 @@
+// configure source of video to parse into ROS_MSG
+
+//{
+//  "source_type": "file",  // or "webcam",
+//  "video_files": [
+//    "path/to/your/video1.mp4",
+//    "path/to/your/video2.mp4",
+//    "path/to/your/video3.mp4"
+//  ],
+//  "webcam_device": "/dev/video0",
+//  "publish_frequency": 5.0
+//}
+{
+  "source_type": "file",
+  "video_files": [
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0000.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0001.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0002.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0003.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0004.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0005.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0006.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0007.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0008.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0009.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0010.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0011.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0012.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0013.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0014.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0015.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0016.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0017.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0018.mp4",
+  "/home/dplane/Desktop/hdr_sidney_backup/hdr-0-2022-11-15-17-39-22-0019.mp4"
+  ],
+  "webcam_device": "/dev/video0",
+  "publish_frequency": 15.0
+}
